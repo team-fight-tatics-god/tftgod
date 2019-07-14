@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Nicolas\\Documents\\TFTGOD\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v17\\values-v17.xml",
+            "outputFile": "C:\\Users\\breno\\Documents\\TFT\\tftgod\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v17\\values-v17.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Nicolas\\.gradle\\caches\\transforms-2\\files-2.1\\b1f6be38dd01e2e52248e6b386c03fe0\\res\\values-v17\\values-v17.xml",
+                    "source": "C:\\Users\\breno\\.gradle\\caches\\transforms-2\\files-2.1\\ecba9594718c47833e3e8e1de687da08\\res\\values-v17\\values-v17.xml",
                     "from": {
                         "startLines": "2,5,9,12,15,18,22,25,29,33,37,40,43,46,50,53,57",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",

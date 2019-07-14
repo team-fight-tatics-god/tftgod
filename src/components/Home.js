@@ -113,5 +113,8 @@ const style = StyleSheet.create({
   viewCampeoes: {
     alignItems: 'center',
     marginTop: 35
+  },
+  container:{
+    backgroundColor: '#00000060'
   }
 })
