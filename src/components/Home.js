@@ -33,8 +33,31 @@ export default class Home extends Component {
               style={{ width: 350, height: 250, margin: 30 }}
               source={require('../imgs/logoInterno.png')}
             />
+             <View style={style.viewItens}>
+              <Text style={style.textItens}>Itens Básicos</Text>
+              <Image
+                style={{ width: 400, height: 80 }}
+                source={require('../imgs/risco-lol.png')}
+              />
+            </View>
+
+
+
+            {lista.itens1.map(t => (  
+              <TouchableOpacity key={t.id} style={style.botao} onPress={() => { navigate('Tela3', { name: t.nome, texto:t.texto}) }}>
+                <Image
+                  key={t.id}  
+                  style={{ width: 80, height: 80 }}
+                  source={t.url}
+                />
+              </TouchableOpacity>
+            ))}
+            
+            
+            
+            
             <View style={style.viewItens}>
-              <Text style={style.textItens}>Itens</Text>
+              <Text style={style.textItens}>Itens Completos</Text>
               <Image
                 style={{ width: 400, height: 80 }}
                 source={require('../imgs/risco-lol.png')}
@@ -73,8 +96,6 @@ export default class Home extends Component {
               />
             </TouchableOpacity>
             ))}
-            
-
           </View>
         </ScrollView>
       </ImageBackground>

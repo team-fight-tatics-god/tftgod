@@ -51,7 +51,6 @@ export default class Tela1 extends Component {
                 style={{ width: 60, height: 60, margin: 20 }}
                 source={item.url}
               />
-
             </View>
 
             <Text style={{ color: 'white', fontSize: 40, opacity: 0.8, marginTop: 50 }}>Qual Efeito do Item</Text>

@@ -24,6 +24,27 @@ const dancarina = require('./imgs/dancarina.png');
 const armaduraEspinhos = require('./imgs/armaduraEspinhos.png');
 const armaduraWarmog = require('./imgs/armaduraWarmog.png');
 const darkin = require('./imgs/darkin.png');
+const luden = require('./imgs/luden.png');
+const seraph = require('./imgs/seraph.png');
+const coracaoCongelado = require('./imgs/coracaoCongelado.png');
+const quietude = require('./imgs/quietude.png');
+const redencao = require('./imgs/redencao.png');
+const laminaAmaldicoada = require('./imgs/laminaAmaldicoada.png');
+const hidraTitanica = require('./imgs/hidraTitanica.png');
+const reiDestruido = require('./imgs/reiDestruido.png');
+const rabadon = require('./imgs/rabadon.png');
+const solari = require('./imgs/solari.png');
+const centelhaIonica = require('./imgs/centelhaIonica.png');
+const morellonomicon = require('./imgs/morellonomicon.png');
+const yuumi = require('./imgs/yuumi.png');
+const efeitoVermelho = require('./imgs/efeitoVermelho.png');
+const juramentoCavaleiro = require('./imgs/juramentoCavaleiro.png');
+const quebraEspada = require('./imgs/quebraEspada.png');
+const garraDragao = require('./imgs/garraDragao.png');
+const zefiro = require('./imgs/zefiro.png');
+const runnan = require('./imgs/runaan.png');
+const malho = require('./imgs/malho.png')
+const forcaNatureza = require('./imgs/forcaNatureza.png')
 
 //champs
 const aatrox = require('./imgs/campeoes/aatrox.png')
@@ -78,7 +99,7 @@ const yasuo = require('./imgs/campeoes/yasuo.png')
 const zed = require('./imgs/campeoes/zed.png')
 
 
-const Itens = {
+const ItensTier2 = {
     "anjoGuardiao": {
       "idItem": 1,
       "nome": "Anjo Guardião",
@@ -847,7 +868,6 @@ const Campeoes = {
       "armor":20,
       "custo":1
     },
-  
     "poppy":{
       "idCampeao": 35,
       "nome": "Poppy",
@@ -859,7 +879,6 @@ const Campeoes = {
       "armor":20,
       "custo":3
     },
-
     "pyke":{
       "idCampeao":36,
       "nome": "Pyke",
@@ -870,8 +889,7 @@ const Campeoes = {
       "dps":33.0,
       "armor":25,
       "custo":4
-    },
-  
+    },  
     "rekSai":{
       "idCampeao": 37,
       "nome": "Rek'Sai",
@@ -883,7 +901,6 @@ const Campeoes = {
       "armor":20,
       "custo":2
     },
-  
     "rengar":{
       "idCampeao": 38,
       "nome": "Rengar",
@@ -895,7 +912,6 @@ const Campeoes = {
       "armor":20,
       "custo":3
     },
-  
     "sejuani":{
       "idCampeao": 39,
       "nome": "Sejuani",
@@ -907,7 +923,6 @@ const Campeoes = {
       "armor":35,
       "custo":4
     },
-  
     "shen":{
       "idCampeao": 40,
       "nome": "Shen",
@@ -919,7 +934,6 @@ const Campeoes = {
       "armor":30,
       "custo":2
     },
-  
     "shyvana":{
       "idCampeao": 41,
       "nome": "Shyvana",
@@ -1033,6 +1047,131 @@ const Campeoes = {
   
   
   };
+
+const ItensTier1 = {
+  "lagrima":{
+    "id": 1,
+    "efeito":"+20 Mana para o usuario",
+    "url": lagrima,
+    "combinacoes":[
+      [gpc,shojin,"shojin","Lança de Shojin"],
+      [arcoRecurvo,statikk,"statikk","Faca Statikk"],
+      [bastaoGrande,luden,"luden","Eco de Luden"],
+      [lagrima,seraph,"seraph","Abraço de Seraph"],
+      [cotaMalha,coracaoCongelado,"coracaoCongelado","Coração Congelado"],
+      [capaNegatron,quietude,"quietude","Quietude"],
+      [cintoGigante,redencao,"redencao","Redenção"],
+      [espatula,darkin,"darkin","Darkin"]
+    ],
+  },
+  "gpc":{
+    "id": 2,
+    "efeito":"+20 de dano de ataque para o usuario",
+    "url": gpc,
+    "combinacoes":[
+      [gpc,gumeInfinito,"gumeInfinito","Gume do Infinito"],
+      [arcoRecurvo,espadaDivino,"espadaDivino","Espada do Divino"],
+      [bastaoGrande,pistola,"pistola","Pistola Laminar Hextec"],
+      [lagrima,anjoGuardiao,"anjoGuardiao","Anjo Guardião"],
+      [cotaMalha,coracaoCongelado,"coracaoCongelado","Coração Congelado"],
+      [capaNegatron,sedenta,"sedenta","A sedenta por sangue"],
+      [cintoGigante,arautoZeke,"arautoZeke","Arauto de Zeke"],
+      [espatula,youmuu,"youmuu","Lâmina Fantasma de Youmuu"]
+    ],
+  },
+  "arcoRecurvo":{
+    "id": 3,
+    "efeito":"+15% Velocidade de ataque para o usuario",
+    "url": arcoRecurvo,
+    "combinacoes":[
+      [gpc,espadaDivino,"espadaDivino","Espada do Divino"],
+      [arcoRecurvo,canhaoFumegante,"canhaoFumegante","Canhão Fumegante"],
+      [bastaoGrande,guinsoo,"guinsoo","Lâmina da Fúria de Guinsoo"],
+      [lagrima,statikk,"statikk","Faca Statikk"],
+      [cotaMalha,dancarina,"dancarina","Dançarina Fantasma"],
+      [capaNegatron,laminaAmaldicoada,"laminaAmaldicoada","Lamina Amaldiçoada"],
+      [cintoGigante,hidraTitanica,"hidraTitanica","Hidra Titanica"],
+      [espatula,reiDestruido,"reiDestruido","Espada do rei destruido"]
+    ],
+  },
+  "bastaoGrande":{
+    "id": 4,
+    "efeito":"+20% Dano com habilidades para o usuario",
+    "url": bastaoGrande,
+    "combinacoes":[
+      [gpc,pistola,"pistola","Pistola Laminar Hextec"],
+      [arcoRecurvo,guinsoo,"guinsoo","Lâmina da Fúria de Guinsoo"],
+      [bastaoGrande,rabadon,"rabadon","Capuz da morte de Rabadon"],
+      [lagrima,luden,"luden","Eco de Luden"],
+      [cotaMalha,solari,"solari","Medalhão dos Solari de ferro"],
+      [capaNegatron,centelhaIonica,"centelhaIonica","Centelha Iônica"],
+      [cintoGigante,morellonomicon,"morellonomicon","Morellonomicon"],
+      [espatula,yuumi,"yuumi","Yuumi"]
+    ],
+  },
+  "cotaMalha":{
+    "id": 5,
+    "efeito":"+20 Armadura para o usuario",
+    "url": cotaMalha,
+    "combinacoes":[
+      [gpc,anjoGuardiao,"anjoGuardiao","Anjo Guardião"],
+      [arcoRecurvo,dancarina,"dancarina","Dançarina Fantasma"],
+      [bastaoGrande,solari,"solari","Medalhão dos Solari de ferro"],
+      [lagrima,coracaoCongelado,"coracaoCongelado","Coração Congelado"],
+      [cotaMalha,armaduraEspinhos,"armaduraEspinhos","Armadura de Espinhos"],
+      [capaNegatron,quebraEspada,"quebraEspada","Quebra-Espada"],
+      [cintoGigante,efeitoVermelho,"efeitoVermelho","Efeito Vermelho"],
+      [espatula,juramentoCavaleiro,"juramentoCavaleiro","Juramento do Cavaleiro"]
+    ],
+  },
+  "capaNegatron":{
+    "id": 6,
+    "efeito":"+20 Resistência mágica para o usuario",
+    "url": capaNegatron,
+    "combinacoes":[
+      [gpc,sedenta,"sedenta","A sedenta por sangue"],
+      [arcoRecurvo,laminaAmaldicoada,"laminaAmaldicoada","Lamina Amaldiçoada"],
+      [bastaoGrande,centelhaIonica,"centelhaIonica","Centelha Iônica"],
+      [lagrima,quietude,"quietude","Quietude"],
+      [cotaMalha,quebraEspada,"quebraEspada","Quebra-Espada"],
+      [capaNegatron,garraDragao,"garraDragao","Garra do Dragão"],
+      [cintoGigante,zefiro,"zefiro","Zéfiro"],
+      [espatula,runnan,"runnan","Furacão de Runnan"]
+    ],
+  },
+  "cintoGigante":{
+    "id": 7,
+    "efeito":"+200 Vida para o usuario",
+    "url": cintoGigante,
+    "combinacoes":[
+      [gpc,arautoZeke,"arautoZeke","Arauto de Zeke"],
+      [arcoRecurvo,hidraTitanica,"hidraTitanica","Hidra Titanica"],
+      [bastaoGrande,morellonomicon,"morellonomicon","Morellonomicon"],
+      [lagrima,redencao,"rendencao","Redenção"],
+      [cotaMalha,efeitoVermelho,"efeitoVermelho","Efeito Vermelho"],
+      [capaNegatron,zefiro,"zefiro","Zéfiro"],
+      [cintoGigante,armaduraWarmog,"armaduraWarmog","Armadura de Warmog"],
+      [espatula,malho,"malho","Malho Congelado"]
+    ],
+  },
+
+  "espatula":{
+    "id": 8,
+    "efeito":"A espátula sozinha não tem efeito algum, mas combinada a outros itens pode ser a chave para a viória",
+    "url": espatula,
+    "combinacoes":[
+      [gpc,youmuu],
+      [arcoRecurvo,reiDestruido,"reiDestruido","Espada do Rei Destruído"],
+      [bastaoGrande,yuumi,"yuumi","Yuumi"],
+      [lagrima,darkin,"darkin","Darkin"],
+      [cotaMalha,juramentoCavaleiro,"juramentoCavaleiro","Juramento do Cavaleiro"],
+      [capaNegatron,runnan,"runnan","Furacão Runnan"],
+      [cintoGigante,malho,"malho","Malho Congelado"],
+      [espatula,forcaNatureza,"forcaNatureza","Força da Natureza"]
+    ],
+  },
+}
+
 
  export const lista = {
     itens:[
@@ -1430,13 +1569,70 @@ const Campeoes = {
       },
       
       
-    ]
+    ],
+    itens1:[
+      {
+        "id":1,
+        "url":gpc,
+        "nome":"gpc",
+        "texto":"Espada G .p .C"
+      },
+      {
+        "id":2,
+        "url":arcoRecurvo,
+        "nome":"arcoRecurvo",
+        "texto":"Arco Recurvo"
+      },
+      {
+        "id":3,
+        "url":bastaoGrande,
+        "nome":"bastaoGrande",
+        "texto":"Bastão Grande"
+      },
+      {
+        "id":4,
+        "url":lagrima,
+        "nome":"lagrima",
+        "texto":"Lágrima da Deusa"
+      },
+      {
+        "id":5,
+        "url":cotaMalha,
+        "nome":"cotaMalha",
+        "texto":"Cota de Malha"
+      },
+      {
+        "id":6,
+        "url":capaNegatron,
+        "nome":"capaNegatron",
+        "texto":"Capa Negatron"
+      },
+      {
+        "id":7,
+        "url":cintoGigante,
+        "nome":"cintoGigante",
+        "texto":"Cinto Gigante"
+      },
+      {
+        "id":8,
+        "url":espatula,
+        "nome":"espatula",
+        "texto":"Espátula"
+      },
+    
+  
+  
+  ]
   }
   
   export const GetItem = (name) => {
-    return Itens[name];
+    return ItensTier2[name];
   }
   export const GetCampeoes = (nome) => {
     return Campeoes[nome];
+  }
+
+  export const GetItemBasico = (nome) => {
+    return ItensTier1[nome];
   }
   
