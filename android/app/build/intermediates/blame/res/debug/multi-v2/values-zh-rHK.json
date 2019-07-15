@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\breno\\Documents\\TFT\\tftgod\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-zh-rHK\\values-zh-rHK.xml",
+            "outputFile": "C:\\Users\\breno\\Documents\\tftgod\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-zh-rHK\\values-zh-rHK.xml",
             "map": [
                 {
                     "source": "C:\\Users\\breno\\.gradle\\caches\\transforms-2\\files-2.1\\ecba9594718c47833e3e8e1de687da08\\res\\values-zh-rHK\\values-zh-rHK.xml",

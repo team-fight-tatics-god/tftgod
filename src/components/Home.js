@@ -26,7 +26,7 @@ export default class Home extends Component {
 
     const { navigate } = this.props.navigation;
     return (
-      <ImageBackground source={require('../imgs/background/bg.gif')} style={{ width: '100%', height: '100%' }}>
+      <ImageBackground source={require('../imgs/fundoLol.jpg')} style={{ width: '100%', height: '100%' }}>
         <ScrollView style={style.container}>
           <View style={style.scroll}>
             <Image
@@ -87,7 +87,7 @@ const style = StyleSheet.create({
   scroll: {
     flexDirection: 'row',
     flexWrap: 'wrap',
-    backgroundColor: 'transparent',
+    backgroundColor: '#00000060',
     marginBottom: 100
   },
   botao: {
@@ -115,6 +115,6 @@ const style = StyleSheet.create({
     marginTop: 35
   },
   container:{
-    backgroundColor: '#00000060'
+    backgroundColor:'#00000060'
   }
 })

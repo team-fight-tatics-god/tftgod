@@ -24,26 +24,13 @@ export default class Tela1 extends Component {
       opacity: 1
     }
   });
-  // static navigationOptions = {
-  //   title:navigation.state.params.name,
-  //   headerStyle: {
-  //     backgroundColor: 'black',
-  //     height: 80,
-  //     opacity: 0.8
-  //   },
-  //   headerTintColor: 'white',
-  //   headerTitleStyle: {
-  //     fontWeight: 'bold',
-  //     opacity: 1
-  //   }
-  // }
   render() {
    
     const item = GetItem(this.state.name);
     return (
-      <ImageBackground source={require('../imgs/background/bg.gif')} style={{ width: '100%', height: '100%' }}>
-        <ScrollView>
-          <View style={{ alignItems: 'center' }}>
+      <ImageBackground source={require('../imgs/fundoLol.jpg')} style={{ width: '100%', height: '100%' }}>
+        <ScrollView style={{backgroundColor:'#00000060'}}>
+          <View style={{ alignItems: 'center',backgroundColor:'#00000060' }}>
             <Image
               style={{ width: 180, height: 180, margin: 70 }}
               source={item.url}

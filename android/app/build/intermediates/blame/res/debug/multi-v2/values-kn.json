@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\breno\\Documents\\TFT\\tftgod\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-kn\\values-kn.xml",
+            "outputFile": "C:\\Users\\breno\\Documents\\tftgod\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-kn\\values-kn.xml",
             "map": [
                 {
                     "source": "C:\\Users\\breno\\.gradle\\caches\\transforms-2\\files-2.1\\8504e5aa8c2164a7627207899e1e4ae8\\res\\values-kn\\values-kn.xml",

@@ -24,9 +24,9 @@ export default class Tela2 extends Component {
     const name = this.props.navigation.getParam("name");
     const campeoes = GetCampeoes(name);
     return (
-      <ImageBackground source={require('../imgs/background/bg.gif')} style={{ width: '100%', height: '100%' }}>
-        <ScrollView>
-          <View style={{alignItems:'center'}}>
+      <ImageBackground source={require('../imgs/fundoLol.jpg')} style={{ width: '100%', height: '100%' }}>
+        <ScrollView  style={{backgroundColor:'#00000060'}} >
+          <View style={{alignItems:'center', backgroundColor:'#00000060'}}>
             <Image
               style={{ width: 180, height: 180, margin: 70 }}
               source={campeoes.url}
