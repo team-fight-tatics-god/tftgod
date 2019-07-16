@@ -489,6 +489,534 @@ const ItensTier2 = {
       ],
       "url": dancarina
     },
+    "laminaAmaldicoada": {
+      "idItem": 16,
+      "nome": "Lâmina Amaldiçoada",
+      "feito": [arcoRecurvo, capaNegatron],
+      "efeito": "Ataques têm uma chance baixa de Diminuir (reduzir o nível de estrela do inimigo em 1)",
+      "bomEm": [
+        {
+          "id": 1,
+          "url": tristana
+        },
+        {
+          "id": 2,
+          "url": graves
+        },
+        {
+          "id": 3,
+          "url": volibear
+        },
+        {
+          "id": 4,
+          "url": lucian
+        }
+      ],
+      "url": laminaAmaldicoada
+    },
+    "hidraTitanica": {
+      "idItem": 17,
+      "nome": "Hidra Titânica",
+      "feito": [arcoRecurvo, cintoGigante],
+      "efeito": "Ataques causam dano de dispersão de 10.0% da Vida máxima do usuário",
+      "bomEm": [
+        {
+          "id": 1,
+          "url": choGath
+        },
+        {
+          "id": 2,
+          "url": elise
+        },
+        {
+          "id": 3,
+          "url": nidalee
+        },
+        {
+          "id": 4,
+          "url": shen
+        },
+        {
+          "id": 5,
+          "url": shyvana
+        },
+        {
+          "id": 6,
+          "url": gnar
+        },
+        {
+          "id": 7,
+          "url": aatrox
+        }
+      ],
+      "url": hidraTitanica
+    },
+    "reiDestruido": {
+      "idItem": 18,
+      "nome": "Espada do Rei Destruído",
+      "feito": [arcoRecurvo, espatula],
+      "efeito": "Usuário também é um Mestre das Lâminas",
+      "bomEm": [
+       {
+
+       }
+      ],
+      "url": reiDestruido
+    },
+    "rabadon": {
+      "idItem": 19,
+      "nome": "Capuz da Morte de Rabadon",
+      "feito": [bastaoGrande, bastaoGrande],
+      "efeito": "O atributo de dano com habilidades do usuário é amplificado em 50.0%",
+      "bomEm": [
+        {
+          "id": 1,
+          "url": morgana
+        },
+        {
+          "id": 2,
+          "url": karthus
+        },
+        {
+          "id": 3,
+          "url": anivia
+        },
+        {
+          "id": 4,
+          "url": brand
+        },
+        {
+          "id": 5,
+          "url": ahri
+        },
+        {
+          "id": 6,
+          "url": aurelionSol
+        }
+      ],
+      "url": rabadon
+    },
+    "luden": {
+      "idItem": 20,
+      "nome": "Eco de Luden",
+      "feito": [bastaoGrande, lagrima],
+      "efeito": "Habilidades causam 100.0 de dano de dispersão ao contato",
+      "bomEm": [
+        {
+          "id": 1,
+          "url": anivia
+        },
+        {
+          "id": 2,
+          "url": katarina
+        },
+        {
+          "id": 3,
+          "url": brand
+        },
+        {
+          "id": 4,
+          "url": akali
+        },
+        {
+          "id": 5,
+          "url": garen
+        },
+        {
+          "id": 6,
+          "url": ahri
+        }
+      ],
+      "url": luden
+    },
+    "solari": {
+      "idItem": 21,
+      "nome": "Medalhão dos Solari de Ferro",
+      "feito": [bastaoGrande, cotaMalha],
+      "efeito": "No início do combate, todos os aliados adjacentes recebem um escudo de 200.0",
+      "bomEm": [
+        {
+          "id": 1,
+          "url": morgana
+        },
+        {
+          "id": 2,
+          "url": leona
+        },
+        {
+          "id": 3,
+          "url": lulu
+        },
+        {
+          "id": 4,
+          "url": lissandra
+        },
+        {
+          "id": 5,
+          "url": braum
+        },
+        {
+          "id": 6,
+          "url": kindred
+        }
+      ],
+      "url": solari
+    },
+    "centelhaIonica": {
+      "idItem": 22,
+      "nome": "Centelha Iônica",
+      "feito": [bastaoGrande, capaNegatron],
+      "efeito": "Sempre que um inimigo conjurar uma habilidade, ele sofre 200.0 de dano",
+      "bomEm": [
+        {
+          "id": 1,
+          "url": morgana
+        },
+        {
+          "id": 2,
+          "url": leona
+        },
+        {
+          "id": 3,
+          "url": lulu
+        },
+        {
+          "id": 4,
+          "url": lissandra
+        },
+        {
+          "id": 5,
+          "url": braum
+        },
+        {
+          "id": 6,
+          "url": kindred
+        }
+      ],
+      "url": centelhaIonica
+    },
+    "morellonomicon": {
+      "idItem": 23,
+      "nome": "Morellonomicon",
+      "feito": [bastaoGrande, cintoGigante],
+      "efeito": "Habilidades causam dano de queimadura igual a 5.0% da Vida máxima do inimigo por segundo",
+      "bomEm": [
+        {
+          "id": 1,
+          "url": anivia
+        },
+        {
+          "id": 2,
+          "url": katarina
+        },
+        {
+          "id": 3,
+          "url": brand
+        },
+        {
+          "id": 4,
+          "url": kennen
+        },
+        {
+          "id": 5,
+          "url": garen
+        },
+        {
+          "id": 6,
+          "url": lucian
+        }
+      ],
+      "url": morellonomicon
+    },
+    "yuumi": {
+      "idItem": 24,
+      "nome": "Yuumi",
+      "feito": [bastaoGrande, espatula],
+      "efeito": "Usuário também é um Feiticeiro",
+      "bomEm": [
+        {
+
+        }
+      ],
+      "url": yuumi
+    },
+    "seraph": {
+      "idItem": 25,
+      "nome": "Abraço de Seraph",
+      "feito": [lagrima, lagrima],
+      "efeito": "Recupera 20.0 de Mana cada vez que uma habilidade é conjurada",
+      "bomEm": [
+        {
+          "id": 1,
+          "url": akali
+        },
+        {
+          "id": 2,
+          "url": ahri
+        },
+        {
+          "id": 3,
+          "url": sejuani
+        },
+        {
+          "id": 4,
+          "url": lulu
+        },
+        {
+          "id": 5,
+          "url": aurelionSol
+        },
+        {
+          "id": 6,
+          "url": pyke
+        }
+      ],
+      "url": seraph
+    },
+    "coracaoCongelado": {
+      "idItem": 26,
+      "nome": "Coração Congelado",
+      "feito": [lagrima, cotaMalha],
+      "efeito": "Inimigos adjacentes perdem 20.0% de Velocidade de Ataque",
+      "bomEm": [
+        {
+          "id": 1,
+          "url": choGath
+        },
+        {
+          "id": 2,
+          "url": poppy
+        },
+        {
+          "id": 3,
+          "url": leona
+        },
+        {
+          "id": 4,
+          "url": braum
+        }
+      ],
+      "url": coracaoCongelado
+    },
+    "quietude": {
+      "idItem": 27,
+      "nome": "Quietude",
+      "feito": [lagrima, capaNegatron],
+      "efeito": "Ataques têm alta chance de causarem Silêncio",
+      "bomEm": [
+        {
+          "id": 1,
+          "url": tristana
+        },
+        {
+          "id": 2,
+          "url": graves
+        },
+        {
+          "id": 3,
+          "url": volibear
+        },
+        {
+          "id": 4,
+          "url": lucian
+        }        
+      ],
+      "url": quietude
+    },
+    "redencao": {
+      "idItem": 28,
+      "nome": "Rendeção",
+      "feito": [lagrima, cintoGigante],
+      "efeito": "Ao morrer, cura todos os aliados próximos em 1000.0 de Vida",
+      "bomEm": [
+        {
+          "id": 1,
+          "url": choGath
+        },
+        {
+          "id": 2,
+          "url": poppy
+        },
+        {
+          "id": 3,
+          "url": leona
+        },
+        {
+          "id": 4,
+          "url": braum
+        }
+      ],
+      "url": redencao
+    },
+    "quebraEspada": {
+      "idItem": 29,
+      "nome": "Quebra-Espada",
+      "feito": [cotaMalha, capaNegatron],
+      "efeito": "Ataques têm uma chance de desarmar",
+      "bomEm": [
+        {
+          "id": 1,
+          "url": tristana
+        },
+        {
+          "id": 2,
+          "url": graves
+        },
+        {
+          "id": 3,
+          "url": volibear
+        },
+        {
+          "id": 4,
+          "url": lucian
+        }
+      ],
+      "url": quebraEspada
+    },
+    "efeitoVermelho": {
+      "idItem": 30,
+      "nome": "Efeito Vermelho",
+      "feito": [cotaMalha, cintoGigante],
+      "efeito": "Ataques causam 2.5% de dano de queimadura",
+      "bomEm": [
+        {
+          "id": 1,
+          "url": tristana
+        },
+        {
+          "id": 2,
+          "url": graves
+        },
+        {
+          "id": 3,
+          "url": volibear
+        },
+        {
+          "id": 4,
+          "url": lucian
+        }
+      ],
+      "url": efeitoVermelho
+    },
+    "juramentoCavaleiro": {
+      "idItem": 31,
+      "nome": "Juramento do Cavaleiro",
+      "feito": [cotaMalha, espatula],
+      "efeito": "Usuário também é um Cavaleiro",
+      "bomEm": [
+        {
+
+        }
+      ],
+      "url": juramentoCavaleiro
+    },
+    "garraDragao": {
+      "idItem": 32,
+      "nome": "Garra do Dragão",
+      "feito": [capaNegatron, capaNegatron],
+      "efeito": "Recebe 83.0% de Resistência a Dano Mágico",
+      "bomEm": [
+        {
+          "id": 1,
+          "url": poppy
+        },
+        {
+          "id": 2,
+          "url": mordekaiser
+        },
+        {
+          "id": 3,
+          "url": shen
+        },
+        {
+          "id": 4,
+          "url": sejuani
+        },
+        {
+          "id": 5,
+          "url": darius
+        },
+        {
+          "id": 6,
+          "url": gnar
+        }
+      ],
+      "url": garraDragao
+    },
+    "zefiro": {
+      "idItem": 33,
+      "nome": "Zéfiro",
+      "feito": [capaNegatron, cintoGigante],
+      "efeito": "No início do combate, bane um inimigo por 5.0s",
+      "bomEm": [
+        {
+          "id": 1,
+          "url": morgana
+        },
+        {
+          "id": 2,
+          "url": leona
+        },
+        {
+          "id": 3,
+          "url": lulu
+        },
+        {
+          "id": 4,
+          "url": lissandra
+        },
+        {
+          "id": 5,
+          "url": braum
+        },
+        {
+          "id": 6,
+          "url": kindred
+        }
+      ],
+      "url": zefiro
+    },
+    "runnan": {
+      "idItem": 34,
+      "nome": "Furacão de Runnan",
+      "feito": [capaNegatron, espatula],
+      "efeito": "Ataques atingem 2.0 inimigos adicionais. Esses ataques adicionais causam 50.0% de dano", 
+      "bomEm": [
+        {
+          "id": 1,
+          "url": ashe
+        },
+        {
+          "id": 2,
+          "url": vayne
+        }
+      ],
+      "url": runnan
+    },
+    "malho": {
+      "idItem": 35,
+      "nome": "Malho Congelado",
+      "feito": [espatula, cintoGigante],
+      "efeito": "Usuário também é um Glacial",
+      "bomEm": [
+        {
+
+        }
+      ],
+      "url": malho
+    },
+    "forcaNatureza": {
+      "idItem": 36,
+      "nome": "Força da Natureza",
+      "feito": [espatula, espatula],
+      "efeito": "Recebe +1.0 de tamanho da equipe",
+      "bomEm": [
+       {
+
+       }
+      ],
+      "url": forcaNatureza
+    },
   
   };
 
@@ -1072,8 +1600,8 @@ const ItensTier1 = {
       [gpc,gumeInfinito,"gumeInfinito","Gume do Infinito"],
       [arcoRecurvo,espadaDivino,"espadaDivino","Espada do Divino"],
       [bastaoGrande,pistola,"pistola","Pistola Laminar Hextec"],
-      [lagrima,anjoGuardiao,"anjoGuardiao","Anjo Guardião"],
-      [cotaMalha,coracaoCongelado,"coracaoCongelado","Coração Congelado"],
+      [lagrima,shojin,"shojin","Lança de shojin"],
+      [cotaMalha,anjoGuardiao,"anjoGuardiao","Anjo Guardião"],
       [capaNegatron,sedenta,"sedenta","A sedenta por sangue"],
       [cintoGigante,arautoZeke,"arautoZeke","Arauto de Zeke"],
       [espatula,youmuu,"youmuu","Lâmina Fantasma de Youmuu"]
@@ -1160,7 +1688,7 @@ const ItensTier1 = {
     "efeito":"A espátula sozinha não tem efeito algum, mas combinada a outros itens pode ser a chave para a viória",
     "url": espatula,
     "combinacoes":[
-      [gpc,youmuu],
+      [gpc,youmuu, "youmuu", "Lâmina Fantasma de Youmuu"],
       [arcoRecurvo,reiDestruido,"reiDestruido","Espada do Rei Destruído"],
       [bastaoGrande,yuumi,"yuumi","Yuumi"],
       [lagrima,darkin,"darkin","Darkin"],
@@ -1265,6 +1793,132 @@ const ItensTier1 = {
         "nome":"dancarina",
         "texto":"Dançarina Fantasma"
       },
+      {
+        "id":16,
+        "url":laminaAmaldicoada,
+        "nome":"laminaAmaldicoada",
+        "texto":"Lâmina Amaldiçoada"
+      },
+      {
+        "id":17,
+        "url":hidraTitanica,
+        "nome":"hidraTitanica",
+        "texto":"Hidra Titânica"
+      },
+      {
+        "id":18,
+        "url":reiDestruido,
+        "nome":"reiDestruido",
+        "texto":"Espado do Rei Destruído"
+      },
+      {
+        "id":19,
+        "url":rabadon,
+        "nome":"rabadon",
+        "texto":"Capuz da Morte de Rabadon"
+      },
+      {
+        "id":20,
+        "url":luden,
+        "nome":"luden",
+        "texto":"Eco de Luden"
+      },
+      {
+        "id":21,
+        "url":solari,
+        "nome":"solari",
+        "texto":"Medalhão dos Solari de Ferro"
+      },
+      {
+        "id":22,
+        "url":centelhaIonica,
+        "nome":"centelhaIonica",
+        "texto":"Centelha Iônica"
+      },
+      {
+        "id":23,
+        "url":morellonomicon,
+        "nome":"morellonomicon",
+        "texto":"Morellonomicon"
+      },
+      {
+        "id":24,
+        "url":yuumi,
+        "nome":"yuumi",
+        "texto":"Yuumi"
+      },
+      {
+        "id":25,
+        "url":seraph,
+        "nome":"seraph",
+        "texto":"Abraço de Seraph"
+      },
+      {
+        "id":26,
+        "url":coracaoCongelado,
+        "nome":"coracaoCongelado",
+        "texto":"Coração Congelado"
+      },
+      {
+        "id":27,
+        "url":quietude,
+        "nome":"quietude",
+        "texto":"Quietude"
+      },
+      {
+        "id":28,
+        "url":redencao,
+        "nome":"redencao",
+        "texto":"Redenção"
+      },
+      {
+        "id":29,
+        "url":quebraEspada,
+        "nome":"quebraEspada",
+        "texto":"Quebra Espada"
+      },
+      {
+        "id":30,
+        "url":efeitoVermelho,
+        "nome":"efeitoVermelho",
+        "texto":"Efeito Vermelho"
+      },
+      {
+        "id":31,
+        "url":juramentoCavaleiro,
+        "nome":"juramentoCavaleiro",
+        "texto":"Juramento do Cavaleiro"
+      },
+      {
+        "id":32,
+        "url":garraDragao,
+        "nome":"garraDragao",
+        "texto":"Garra do Dragão"
+      },
+      {
+        "id":33,
+        "url":zefiro,
+        "nome":"zefiro",
+        "texto":"Zéfiro"
+      },
+      {
+        "id":34,
+        "url":runnan,
+        "nome":"runnan",
+        "texto":"Furacão de Runaan"
+      },
+      {
+        "id":35,
+        "url":malho,
+        "nome":"malho",
+        "texto":"Malho Congelado"
+      },
+      {
+        "id":36,
+        "url":forcaNatureza,
+        "nome":"forcaNatureza",
+        "texto":"Força da Natureza"
+      }
     ],
     campeoes:[
       {

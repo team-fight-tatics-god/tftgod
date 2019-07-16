@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\breno\\Documents\\tftgod\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-large-v4\\values-large-v4.xml",
+            "outputFile": "C:\\Users\\Nicolas\\Documents\\1\\tftgod\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-large-v4\\values-large-v4.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\breno\\.gradle\\caches\\transforms-2\\files-2.1\\ecba9594718c47833e3e8e1de687da08\\res\\values-large-v4\\values-large-v4.xml",
+                    "source": "C:\\Users\\Nicolas\\.gradle\\caches\\transforms-2\\files-2.1\\b1f6be38dd01e2e52248e6b386c03fe0\\res\\values-large-v4\\values-large-v4.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10",
                         "startColumns": "4,4,4,4,4,4,4,4,4",
